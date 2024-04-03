@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.js": "/static/js/main.c9ee830a.js",
-    "index.html": "/index.html",
-    "main.c9ee830a.js.map": "/static/js/main.c9ee830a.js.map"
+    "main.js": "/JaeHyup0504.github.io/static/js/main.8f6df5a4.js",
+    "static/media/blogLogo.png": "/JaeHyup0504.github.io/static/media/blogLogo.2c93eb034309a6ad74e0.png",
+    "index.html": "/JaeHyup0504.github.io/index.html",
+    "main.8f6df5a4.js.map": "/JaeHyup0504.github.io/static/js/main.8f6df5a4.js.map"
   },
   "entrypoints": [
-    "static/js/main.c9ee830a.js"
+    "static/js/main.8f6df5a4.js"
   ]
 }
