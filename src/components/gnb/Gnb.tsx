@@ -1,7 +1,7 @@
 import React from "react";
 import { styled } from "@mui/system";
 import { useNavigate } from "react-router-dom";
-import { blogLogo } from "../../assets";
+import { BlogLogo } from "../../assets";
 
 const Gnb = () => {
   let navigate = useNavigate();
@@ -19,7 +19,7 @@ const Gnb = () => {
             alignItems: "center",
           }}
         >
-          <img width={23} height={23} src={blogLogo} alt="블로그 로고" />
+          <img width={23} height={23} src={BlogLogo} alt="블로그 로고" />
           <Font
             style={{
               paddingLeft: 12,
@@ -38,7 +38,7 @@ const Gnb = () => {
           }}
         >
           <Font onClick={() => handleClick("/about")}>About</Font>
-          <Font onClick={() => handleClick("/post")}>Posts</Font>
+          <Font onClick={() => handleClick("/posts")}>Posts</Font>
         </div>
       </Box>
     </GnbDiv>

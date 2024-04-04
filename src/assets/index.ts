@@ -1,3 +1,3 @@
-import blogLogo from "./blogLogo.png";
+import BlogLogo from "./blogLogo.png";
 
-export { blogLogo };
+export { BlogLogo };
