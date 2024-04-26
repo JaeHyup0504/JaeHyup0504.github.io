@@ -12,8 +12,10 @@ const Section = ({ children }: Prop) => {
 export default Section;
 
 const SectionDiv = styled("div")({
-  height: "calc(100vh - 50px)",
+  marginTop: 70,
+  minHeight: "calc(100vh - 190px)",
   display: "flex",
+  width: "100%",
   justifyContent: "center",
   alignItems: "center",
 });

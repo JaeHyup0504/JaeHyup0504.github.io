@@ -13,7 +13,7 @@ export default Footer;
 
 const FooterDiv = styled("div")({
   width: "100%",
-  height: 150,
+  height: 120,
   position: "fixed",
   bottom: 0,
 });

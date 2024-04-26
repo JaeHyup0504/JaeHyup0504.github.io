@@ -2,10 +2,12 @@ import React from "react";
 import Gnb from "../../components/gnb/Gnb";
 import Footer from "../../components/footer/Footer";
 import Section from "../../components/section/Section";
-import Working from "../../components/Working/Working";
 import Seo from "../../components/seo/Seo";
+import PostCard from "../../components/postCard/PostCard";
+import { Box, Grid } from "@mui/material";
 
 const Main = () => {
+  const arr = [1, 2, 3, 4, 5, 6, 7, 8];
   return (
     <>
       <Seo
@@ -15,7 +17,15 @@ const Main = () => {
       />
       <Gnb />
       <Section>
-        <Working title="Main" />
+        <Box width={1140}>
+          <Grid container spacing={3}>
+            {arr.map((_, idx) => (
+              <Grid xs={3} item key={idx}>
+                <PostCard />
+              </Grid>
+            ))}
+          </Grid>
+        </Box>
       </Section>
       <Footer />
     </>

@@ -38,7 +38,7 @@ const Gnb = () => {
           }}
         >
           <Font onClick={() => handleClick("/about")}>About</Font>
-          <Font onClick={() => handleClick("/posts")}>Posts</Font>
+          <Font onClick={() => handleClick("/")}>Posts</Font>
         </div>
       </Box>
     </GnbDiv>
@@ -48,14 +48,15 @@ const Gnb = () => {
 export default Gnb;
 
 const GnbDiv = styled("div")({
+  background: "#fff",
   width: "100%",
-  height: 50,
+  height: 70,
   position: "fixed",
   top: 0,
 });
 
 const Box = styled("div")({
-  height: 50,
+  height: 70,
   maxWidth: 1140,
   margin: "10px auto",
   display: "flex",
